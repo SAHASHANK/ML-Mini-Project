@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import streamlit as st
 import pandas as pd
 import pickle
@@ -41,7 +41,7 @@ if st.button("Predict Price"):
 
     prediction = model.predict(input_df)[0]
 
-=======
+
 import streamlit as st
 import pandas as pd
 import pickle
@@ -84,5 +84,4 @@ if st.button("Predict Price"):
 
     prediction = model.predict(input_df)[0]
 
->>>>>>> ecd2909c32b6a754e02c050b36674d3e8499487e
     st.success(f"Estimated House Price: ₹{prediction:,.2f}")
